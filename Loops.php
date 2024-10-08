@@ -58,12 +58,37 @@ foreach ($movie as $a) {
 
 //Act7
 $identity = array("Name"=>"Alice", "Age"=>"20", "Grade"=>"A", "City"=>"Baguio");
-
 foreach ($identity as $b => $c) {
   echo "$b : $c </n";
 }
 
 //Act8
+$product=1;
+for ($factorial = 5; $factorial >=1; $factorial--) {    
+	$product=$product*$factorial;
+
+  }
+  echo "Factorial of 5 is: ". $product;
+
+//Act9
+for ($multiplicity= 1; $multiplicity <=50; $multiplicity++) {    
+	if($multiplicity%5==0 && $multiplicity%3==0){
+    echo "FizzBuzz ";}else if($multiplicity%3==0){
+    echo "Fizz ";}else if($multiplicity%5==0){
+    echo "Buzz ";}else{echo $multiplicity." ";}
+
+  }
+
+//Act10
+for ($constant=1; $constant<=2; $constant++) {    
+	$insert=readline("Enter number: ");
+    $prime=IsPrime($insert);
+    if ($prime == 0)
+    echo $insert.'is not a prime number' . "<br>";
+else
+    echo $insert.' is a prime number' . "<br>";
+  }
+
 
 
 ?>
