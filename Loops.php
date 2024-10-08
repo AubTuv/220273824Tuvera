@@ -22,6 +22,16 @@ do{
     $input=readline("Please enter the password: ");
 }while($input != "password123");
 echo "Access Granted";
+
+
+//Act3
+//Act3
+for ($x = 0; $x <= 10; $x++) {
+    echo "7 x ".$x." =".$x*7."<br />";
+  }
+
 ?>
+
+
 </body>
 </html>
