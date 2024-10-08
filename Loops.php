@@ -14,23 +14,22 @@ while($counter<=20){
         echo $counter." ";
     }$counter++;
 }
-
-$input=readline("Please enter the password: ");
+echo "/n";
 
 //Act2
 do{
     $input=readline("Please enter the password: ");
 }while($input != "password123");
 echo "Access Granted";
-
-
-//Act3
+echo "/n";
 //Act3
 for ($x = 0; $x <= 10; $x++) {
-    echo "7 x ".$x." =".$x*7."<br />";
+    echo "7 x ".$x." =".$x*7."/n";
   }
 
 ?>
+
+//Act 4
 
 
 </body>
