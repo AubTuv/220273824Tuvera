@@ -84,11 +84,31 @@ for ($constant=1; $constant<=2; $constant++) {
 	$insert=readline("Enter number: ");
     $prime=IsPrime($insert);
     if ($prime == 0)
-    echo $insert.'is not a prime number' . "<br>";
+    echo $insert.'is not a prime number' . "/n";
 else
-    echo $insert.' is a prime number' . "<br>";
+    echo $insert.' is a prime number' . "/n";
   }
 
+//Act11
+$num1 = 0;
+	$num2 = 1;
+      for ( $i = 0; $i < 10; $i++ ) {
+        echo $num1 . ", ";
+        $num3 = $num1 + $num2;
+        $num1 = $num2;
+        $num2 = $num3;
+    }
+
+//Act12
+$str="Hello";
+echo $str."/n";
+	for($i=strlen($str)-1, $j=0; $j<$i; $i--, $j++) 
+    {
+        $temp = $str[$i];
+        $str[$i] = $str[$j];
+        $str[$j] = $temp;
+    }
+echo $str;
 
 
 ?>
