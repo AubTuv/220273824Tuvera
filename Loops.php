@@ -105,7 +105,7 @@ echo "\n\n";
 // Activity 10: Prime Number Checker
 echo "Activity 10: Prime Number Checker\n";
 $prime_num = readline("Enter a number to check if it's prime: ");
-$prime_num = (int)$prime_num;  // Convert input to an integer
+$prime_num = (int)$prime_num;  
 $is_prime = true;
 
 if ($prime_num < 2) {
